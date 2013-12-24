@@ -1,0 +1,56 @@
+Total count of IP: 17
+IP: 46.0.115.185	Count: 118775
+IP: 188.134.34.194	Count: 12
+IP: 109.110.71.106	Count: 759
+IP: 91.200.13.90	Count: 102
+IP: 5.45.69.157	Count: 12
+
+Method: POST	Count: 125
+Method: HEAD	Count: 2
+Method: GET	Count: 119365
+
+Total count of URL: 73850
+URL: /favicon.ico	Count: 104
+URL: /wp-login.php/wp-login.php	Count: 102
+URL: /info.php	Count: 37
+URL: /	Count: 32694
+URL: /cacti/	Count: 30
+
+HTTP code: 200	Count: 44262
+HTTP code: 206	Count: 19
+HTTP code: 301	Count: 3
+HTTP code: 302	Count: 9
+HTTP code: 304	Count: 218
+HTTP code: 404	Count: 59
+HTTP code: 403	Count: 60809
+HTTP code: 499	Count: 1155
+HTTP code: 400	Count: 190
+HTTP code: 504	Count: 1594
+HTTP code: 502	Count: 10257
+HTTP code: 500	Count: 1115
+
+Total referer: 73650
+Referer: http://lol-ddos.ru/wp-login.php/wp-login.php	Count: 101
+Referer: http://151.248.126.4/cacti/graph_view.php?action=tree&tree_id=1&leaf_id=7	Count: 412
+Referer: -	Count: 32883
+Referer: http://lol-ddos.ru/	Count: 70
+Referer: http://151.248.126.4/cacti/	Count: 39
+
+Total User-Agent: 27
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)	Count: 7093
+User-Agent: ApacheBench/2.3	Count: 32621
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0 USA\x5CMiami Style	Count: 102
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)	Count: 7276
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3	Count: 7242
+User-Agent: Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	Count: 7198
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)	Count: 6996
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090718 Firefox/3.5.1	Count: 7143
+User-Agent: Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51	Count: 7168
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727; InfoPath.2)	Count: 7133
+User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.8.131 Version/11.10	Count: 21
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36	Count: 79
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)	Count: 7225
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1	Count: 7080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)	Count: 7170
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; InfoPath.2)	Count: 7190
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 746

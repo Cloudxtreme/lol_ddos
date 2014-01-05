@@ -19,3 +19,4 @@ predel.txt - conn limit
 
 real_time.sh - script start at every 60 sec to count input connection
 
+test.sh - remove ip from iptables if this ip not in database

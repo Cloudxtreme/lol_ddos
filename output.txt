@@ -1,56 +1,159 @@
-Total count of IP: 17
-IP: 46.0.115.185	Count: 118775
-IP: 188.134.34.194	Count: 12
-IP: 109.110.71.106	Count: 759
-IP: 91.200.13.90	Count: 102
-IP: 5.45.69.157	Count: 12
+Total count of IP: 1187
+IP: 5.63.154.55	Count: 525
+IP: 109.237.4.143	Count: 1877
+IP: 5.149.248.86	Count: 1298
+IP: 178.154.163.30	Count: 639
 
-Method: POST	Count: 125
-Method: HEAD	Count: 2
-Method: GET	Count: 119365
+Method: OPTIONS	Count: 3
+Method: POST	Count: 2694
+Method: HEAD	Count: 22
+Method: PROPFIND	Count: 3
+Method: GET	Count: 9709
 
-Total count of URL: 73850
-URL: /favicon.ico	Count: 104
-URL: /wp-login.php/wp-login.php	Count: 102
-URL: /info.php	Count: 37
-URL: /	Count: 32694
-URL: /cacti/	Count: 30
+Total count of URL: 3164
+URL: /user	Count: 190
+URL: /administrator/components/com_dadamail/config.dadamail.php?GLOBALS[mosConfig_absolute_path]=http://www.google.com/humans.txt?	Count: 30
+URL: /administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=http://www.google.com/humans.txt?	Count: 30
+URL: /wp-login.php	Count: 542
+URL: /administrator/components/com_feederator/includes/tmsp/tmsp.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /jquery-1.4.3.min.js	Count: 27
+URL: /ru/sub_menu	Count: 52
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/3%20%281%29.jpg	Count: 53
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/National%20park%202.jpg	Count: 362
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/Trogir%20Slader.jpg	Count: 51
+URL: /	Count: 1009
+URL: /contacts.php	Count: 30
+URL: /administrator/components/com_extended_registration/admin.extended_registration.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /image.php?url=http://www.google.com/humans.txt???	Count: 30
+URL: /update.php	Count: 1290
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/5_3.jpg	Count: 674
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/2%20%281%29.jpg	Count: 338
+URL: /js/chili/recipes.js	Count: 36
+URL: /robots.txt	Count: 1066
+URL: /administrator/components/com_extcalendar/admin_settings.php?CONFIG_EXT[ADMIN_PATH]=http://www.google.com/humans.txt?	Count: 30
+URL: /contact.php	Count: 32
+URL: /administrator/components/com_feederator/includes/tmsp/edit_tmsp.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /ru/faq/	Count: 30
+URL: /administrator/components/com_dbquery/classes/DBQ/admin/common.class.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /forum.php%3Faction%3Ddpages/index/page:80	Count: 67
+URL: /?q=sites/default/files/imagecache/600-155-slider-img/4.jpg	Count: 349
+URL: /administrator/components/com_feederator/includes/tmsp/subscription.php?GLOBALS[mosConfig_absolute_path]=http://www.google.com/humans.txt?	Count: 30
+URL: /administrator/components/com_events/admin.events.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /js/jquery.chili-2.2.js	Count: 36
+URL: /administrator/components/com_feederator/includes/tmsp/add_tmsp.php?mosConfig_absolute_path=http://www.google.com/humans.txt?	Count: 30
+URL: /ru/imgages/body-bg.jpg	Count: 27
+URL: /wp-cron.php?doing_wp_cron	Count: 111
+URL: /favicon.ico	Count: 223
+URL: /administrator/index.php	Count: 62
+URL: /phpBB3/	Count: 28
+URL: /forum.php%3Faction%3Ddpages/index/page:262	Count: 37
+URL: /user/	Count: 200
 
-HTTP code: 200	Count: 44262
-HTTP code: 206	Count: 19
-HTTP code: 301	Count: 3
-HTTP code: 302	Count: 9
-HTTP code: 304	Count: 218
-HTTP code: 404	Count: 59
-HTTP code: 403	Count: 60809
-HTTP code: 499	Count: 1155
-HTTP code: 400	Count: 190
-HTTP code: 504	Count: 1594
-HTTP code: 502	Count: 10257
-HTTP code: 500	Count: 1115
+HTTP code: 200	Count: 7242
+HTTP code: 206	Count: 23
+HTTP code: 301	Count: 261
+HTTP code: 302	Count: 1011
+HTTP code: 303	Count: 56
+HTTP code: 304	Count: 1905
+HTTP code: 404	Count: 1453
+HTTP code: 403	Count: 17
+HTTP code: 499	Count: 368
+HTTP code: 401	Count: 5
+HTTP code: 400	Count: 285
+HTTP code: 503	Count: 109
+HTTP code: 500	Count: 16
 
-Total referer: 73650
-Referer: http://lol-ddos.ru/wp-login.php/wp-login.php	Count: 101
-Referer: http://151.248.126.4/cacti/graph_view.php?action=tree&tree_id=1&leaf_id=7	Count: 412
-Referer: -	Count: 32883
-Referer: http://lol-ddos.ru/	Count: 70
-Referer: http://151.248.126.4/cacti/	Count: 39
+Total referer: 608
+Referer: http://www.akrilstone-kaluga.ru/barnye-stojki-iz-iskusstvennogo-kamnja.php	Count: 43
+Referer: http://ramira.ru/oil/maslo-tnk-trans-gipoid-sae-80w90-api-gl-5-tm-5-18-min	Count: 30
+Referer: http://ramira.ru/	Count: 49
+Referer: http://vashdoktormc.ru/wp-login.php	Count: 116
+Referer: http://www.alfa039.ru/ru/hanstone.php	Count: 31
+Referer: http://www.steh39.ru/	Count: 29
+Referer: http://s-kv.ru/user	Count: 31
+Referer: http://www.nikatour-kld.ru/	Count: 1846
+Referer: http://www.vashdoktormc.ru/wp-login.php	Count: 33
+Referer: -	Count: 7384
+Referer: http://prof-emck.ru/wp-login.php	Count: 116
+Referer: tehnoraj.ru/user/	Count: 199
+Referer: janneta.ru/wp-login.php	Count: 36
+Referer: http://ramira.ru/sites/all/themes/new/style.css?a	Count: 26
+Referer: http://janneta.ru/wp-login.php	Count: 36
+Referer: https://www.google.ru/	Count: 34
+Referer: http://vashdoktormc.ru/	Count: 79
+Referer: http://www.alfa039.ru/ru/faq_hanstone.php	Count: 99
+Referer: http://vozrast-schastya.ru/wp-login.php	Count: 119
+Referer: http://porno-raskazy.ru/	Count: 26
+Referer: http://lcprussia.ru/	Count: 37
+Referer: http://www.555959.ru/sites/all/themes/bartik/front-css/front.css?mu93bv	Count: 29
 
-Total User-Agent: 27
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)	Count: 7093
-User-Agent: ApacheBench/2.3	Count: 32621
-User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0 USA\x5CMiami Style	Count: 102
-User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)	Count: 7276
-User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3	Count: 7242
-User-Agent: Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)	Count: 7198
-User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)	Count: 6996
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090718 Firefox/3.5.1	Count: 7143
-User-Agent: Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51	Count: 7168
-User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727; InfoPath.2)	Count: 7133
-User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.8.131 Version/11.10	Count: 21
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/31.0.1650.63 Chrome/31.0.1650.63 Safari/537.36	Count: 79
-User-Agent: Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)	Count: 7225
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1	Count: 7080
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)	Count: 7170
-User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; InfoPath.2)	Count: 7190
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 746
+Total User-Agent: 615
+User-Agent: Opera/9.80 (Windows NT 5.1) Presto/2.12.388 Version/12.16	Count: 63
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.1.4322; PeoplePal 6.2)	Count: 30
+User-Agent: niki-bot	Count: 29
+User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 29
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0	Count: 36
+User-Agent: 'Mozilla/4.0 (compatible; MSIE 6.1; Windows NT 5.2)'	Count: 111
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 74
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20100101 Firefox/21.0 USA\x5CMiami Style	Count: 210
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/24.0.1309.0 Safari/537.17	Count: 30
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.152 Safari/535.19	Count: 259
+User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots mon3)	Count: 41
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0	Count: 346
+User-Agent: WordPress/3.8; http://lady50plus.ru	Count: 31
+User-Agent: Java/1.6.0_20	Count: 31
+User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)	Count: 198
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 104
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 2108
+User-Agent: WhatWeb/0.4.7	Count: 68
+User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots mon2)	Count: 39
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0) Opera 12.14	Count: 21
+User-Agent: Mozilla/4.0	Count: 34
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)	Count: 109
+User-Agent: Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)	Count: 481
+User-Agent: Mozilla/3.0 (compatible; Indy Library)	Count: 56
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0	Count: 95
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/534.57.7 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.7	Count: 22
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.1.2; ru-ru; GT-I9300 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30	Count: 51
+User-Agent: -	Count: 29
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0	Count: 55
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36	Count: 26
+User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots DEV)	Count: 26
+User-Agent: Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Fast/2.0; +http://go.mail.ru/help/robots)	Count: 25
+User-Agent: Mozilla/5.0 (compatible; Nigma.ru/3.0; crawler@nigma.ru)	Count: 69
+User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)	Count: 570
+User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)	Count: 27
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)	Count: 39
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0	Count: 78
+User-Agent: Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)	Count: 182
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)	Count: 23
+User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots mon1)	Count: 42
+User-Agent: Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots TEST)	Count: 28
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 95
+User-Agent: Mozilla/5.0 (compatible; YandexDirect/3.0; +http://yandex.com/bots)	Count: 33
+User-Agent: Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)	Count: 810
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko	Count: 31
+User-Agent: Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)	Count: 47
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.1; .NET4.0C; .NET4.0E)	Count: 24
+User-Agent: SeopultContentAnalyzer/1.0	Count: 81
+User-Agent: Mozilla/5.0 (compatible; Ezooms/1.0; help@moz.com)	Count: 74
+User-Agent: WordPress/3.4.2; http://prof-emck.ru	Count: 108
+User-Agent: WordPress/3.5.1; http://vozrast-schastya.ru	Count: 114
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11	Count: 21
+User-Agent: msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)	Count: 629
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)	Count: 21
+User-Agent: Opera/9.00 (Windows NT 5.1; U; ru)	Count: 1290
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)	Count: 376
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; chromeframe/19.0.1084.52)	Count: 182
+User-Agent: netEstate NE Crawler (+http://www.website-datenbank.de/)	Count: 50
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060928 (Debian|Debian-1.8.0.7-1) Epiphany/2.14	Count: 21
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36	Count: 77
+User-Agent: Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.8.131 Version/11.10	Count: 227
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)	Count: 35
+User-Agent: Mozilla/5.0 (Windows NT 5.2; RW; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre	Count: 25
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0	Count: 110
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 YaBrowser/13.10.1500.9323 Safari/537.36	Count: 36
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36	Count: 23
+User-Agent: WordPress/3.1.1; http://janneta.ru	Count: 111
+User-Agent: Opera/9.80 (Windows NT 6.1; WOW64; MRA 6.2 (build 7314)) Presto/2.12.388 Version/12.16	Count: 169
+User-Agent: Opera/9.80 (Windows NT 6.2; Win64; x64) Presto/2.12.388 Version/12.16	Count: 30

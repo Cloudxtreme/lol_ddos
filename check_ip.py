@@ -11,6 +11,10 @@ except MySQLdb.Error:
     print(con.error())
 
 cur = con.cursor()
+query = "SELECT count FROM date_stat WHERE date IN (SELECT max(date) FROM date_stat);"
+count = cur.execute(query)
+count1 = cur.fetchone()
+count2 =  int(count1[0])/25
 
 for stri in input:
     count, ip = stri.split()
@@ -18,6 +22,15 @@ for stri in input:
     cur.execute(query)
     match = cur.fetchone()
     if match:
-        print match[0]
+        if int(count) > count2:
+            print "iptables -A INPUT -s %s -j DROP" % match[0]
+    else:
+        if int(count) > (count2 * 2):
+                print "iptables -A INPUT -s %s -j DROP" % ip
+                cur.execute("""INSERT INTO `ip`(`ip`, `count`) VALUES( %s, %s);""", (ip, count))
+                con.commit()
+
+
+
 
 

@@ -1,5 +1,6 @@
 import re
 import MySQLdb
+import time
 
 def process_log(log, conn):
     total = get_requests(log, conn)
@@ -11,16 +12,28 @@ def get_requests(f, conn):
         print("No file")
     log_line = f.read()
     ip = {}
+    cur = conn.cursor()
+    cur.execute('SET NAMES `utf8`')
+    count = len(open("log.txt").readlines())
+    cur.execute('INSERT INTO date_stat (count) VALUES(%s)', count)
+    query_limit = "SELECT count FROM date_stat WHERE date IN (SELECT max(date) FROM date_stat);"
+    limit = cur.execute(query_limit)
+    kimit1 = cur.fetchone()
+    limit2 = int(kimit1[0])/25
+    predel = open("predel.txt", 'w')
+    predel.write(str(limit2))
     method = {}
     url = {}
     resp = {}
     ref = {}
     user_agent = {}
-    cur = conn.cursor()
-    cur.execute('SET NAMES `utf8`')
-    pat = (r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s-\s-\s\[(\d{2}/\w+/\d{4}:\d{2}:\d{2}:\d{2}).+\]\s\"(\w+)\s([^\s]+)\s(HTTP/\d\.\d)\"\s(\d{3})\s(\d+)\s\"([^"]+)\"\s\"([^"]+)\"\s\"([^"]+)\"')
+    cur.execute('DELETE FROM ip')
+    #print log_line
+    print count
+    pat = (r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s-\s-\s\[(\d{2}/\w+/\d{4}:\d{2}:\d{2}:\d{2}).+\]\s\"(\w+)\s([^\s]+)\s(HTTP/\d\.\d)\"\s(\d{3})\s(\d+)\s\"([^"]+)\"\s\"([^"]+)\"\s(?:\"([^"]+)\")?')
     pat2 = (r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s-\s-\s\[(\d{2}/\w+/\d{4}:\d{2}:\d{2}:\d{2})\s[^\"]+\"([^\"]+)\"\s(\d{3})\s\d+\s\"-\"\s\"-\"\s\"-\"')
     match = re.findall(pat, log_line)
+    #print match
     if match:
         for item in match:
             ip[item[0]] = ip.get(item[0], 1) + 1
@@ -30,6 +43,7 @@ def get_requests(f, conn):
             ref[item[7]] = ref.get(item[7], 1) + 1
             user_agent[item[8]] = user_agent.get(item[8], 1) + 1
     match2 = re.findall(pat2, log_line)
+    #print match2
     if match2:
         for item in match2:
             ip[item[0]] = ip.get(item[0], 1) + 1
@@ -41,9 +55,10 @@ def get_requests(f, conn):
 
     out.write("Total count of IP: " + str(len(ip)) + "\n")
     for ips in ip:
-        if ip[ips] > 10:
+        if ip[ips] > limit2:
             out.write("IP: " + str(ips) + "\tCount: " + str(ip[ips]) + "\n")
             cur.execute("""INSERT INTO `ip`(`ip`, `count`) VALUES (%s, %s)""",(ips,ip[ips]))
+            print "iptables -A INPUT -s %s -j DROP" % ips
     conn.commit()
     out.write("\n")
     for met in method:
@@ -69,7 +84,11 @@ def get_requests(f, conn):
 
 if __name__ == '__main__':
     # nginx access log
-    log_file = open("access.log", "r")
+    try:
+        log_file = open("log.txt", "r")
+    except IOError:
+        print("No input file")
+
     try:
         con = MySQLdb.connect(host="localhost", user="root", passwd="proq3dm6", db="Anton")
     except MySQLdb.Error:
